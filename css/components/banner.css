@@ -1,0 +1,26 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: #D2E3C8;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 160px;
+  font-weight: bold;
+  margin-left: 60px;
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #D2E3C8;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-left: 560px;
+}

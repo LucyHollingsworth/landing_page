@@ -1,0 +1,61 @@
+
+.card {
+  margin: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #D2E3C8;
+  padding: 40px;
+
+}
+
+.card-product {
+  overflow: hidden;
+  height: 300px;
+  width: 400px;
+  background: #86A789;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.card-product img {
+
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  display: flex;
+  border-radius: 15px;
+  margin: 20px;
+
+
+}
+
+.card-product h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  text-align: center;
+  color: white;
+  font-family: "Urbanist", sans-serif;
+  justify-content: center;
+}
+
+.card-product p {
+  font-size: 24px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+  display: flex;
+  color: white;
+  font-family: "Urbanist", sans-serif;
+  justify-content: center;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
